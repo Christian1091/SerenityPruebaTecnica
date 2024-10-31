@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Flujo de compras" skipped="0" tests="1" time="21.27" timestamp="2024-10-30 02:23:29"><testcase name="Agregar productos al carrito"><error message="The following error occurred: unknown error: net::ERR_CONNECTION_RESET&#10;  (Session info: chrome=130.0.6723.58)&#10;Build info: version: '4.12.0', revision: '249f2a7d1b*'&#10;System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-198-generic', java.version: '17.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [f92c482d4607c29c4f466d1cebbcaf99, get {url=https://opencart.abstracta.us/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.58, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35601}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:35601/devtoo..., se:cdpVersion: 130.0.6723.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f92c482d4607c29c4f466d1cebbcaf99" type="org.openqa.selenium.WebDriverException">The following error occurred: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=130.0.6723.58)
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-198-generic', java.version: '17.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f92c482d4607c29c4f466d1cebbcaf99, get {url=https://opencart.abstracta.us/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.58, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35601}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:35601/devtoo..., se:cdpVersion: 130.0.6723.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f92c482d4607c29c4f466d1cebbcaf99</error><system-err>The following error occurred: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=130.0.6723.58)
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-198-generic', java.version: '17.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f92c482d4607c29c4f466d1cebbcaf99, get {url=https://opencart.abstracta.us/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.58, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35601}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:35601/devtoo..., se:cdpVersion: 130.0.6723.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f92c482d4607c29c4f466d1cebbcaf99
+net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:209)
+utilities.website.WebSite.navigateTo(WebSite.java:16)
+net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:519)
+net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:499)
+net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:471)
+net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:213)
+net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:200)
+net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:92)
+definitions.product.ProductDef.userNavigateTo(ProductDef.java:17)
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+io.cucumber.java.Invoker.invoke(Invoker.java:24)
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:330)
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:51)
+</system-err></testcase></testsuite>
