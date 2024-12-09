@@ -1,4 +1,4 @@
-# Pruebas Funcionales Automatizadas Serenity
+# Automatizacion Serenity
 
 ## Desarrollo
 Desarrollado con:
